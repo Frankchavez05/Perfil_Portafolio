@@ -531,10 +531,10 @@
 
 
 .skill_secundario{
-  padding: 90px;
+  padding: 90px 0;
 }
 
 
-#servicio3{
-  background-color: #FFF;
+.izquier_program{
+  padding: 0 80px;
 }
