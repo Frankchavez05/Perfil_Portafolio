@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.principal{
+  width: 100%;
+}
+
+.principal_barra_lateral{
+  height: 100%;
+  padding: 60px;
+  position: fixed;
+  background-color: white;
+  float: left;
+  box-shadow:0 0 10px rgb(0 0 0 / 15%);
+}
+
+.menu{
+  height: 925px;
+  overflow: hidden;
+  outline: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.menu ul{
+  text-decoration: none;
+}
+
+.menu ul li {
+  width: 100%;
+}
+
+.menu ul li a{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transition: all 3s ease;
+  padding: 25% 0;
+}
+
+.principal_banner{
+  height: 100vh;
+  padding-left: 400px;
+  background-image: url('https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/CdGUzdqmUbrRCmjP6UOW/pub/JoiXmGh8pwsQbcTWlb7J.png');
+  background-repeat: no-repeat; 
+  background-attachment:scroll; 
+  background-size: cover; 
+  background-position: center center;
+}
+.copyright{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+}
+
+#cor{
+  text-decoration: none;
+  color: #2d5fff;
+}
+
+
+
+
+
+.contenedor_inicio_menu{
+  position: relative;
+  height:100vh;
+  width: 100%;
+  margin-bottom: 150px;
+}
+.contenedor_inicio{
+  position: absolute;
+  top: 50%;
+  transform:translateY(-50%);
+  z-index: 2;
+  margin-bottom: 10%;
+  padding-left: 5%;
+}
+
+.titulo_nombre{
+  font-size: 5rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.puesto_trabajo{
+  margin-top: 2%;
+  font-size: 2rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  color: #6F6F6F;
+}
+
+
+
+
+
+
+
+
+.redes_sociales {
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.redes_sociales ul {
+  list-style-type:none;
+  text-decoration: none;
+}
+
+.redes_sociales ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 5px 0 0;
+}
+
+.redes_sociales ul li a{
+  text-decoration: none;
+}
+
+.redes_sociales ul li a i{
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  line-height:46px;
+  background-color: #2d5fff;
+  border-radius: 100%;
+  border: 2px solid #2d5fff;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+.about{
+  display: block;
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.about .about_secun{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin-bottom: 180px;
+}
+
+.container_about{
+  max-width:100%;
+  width: 100%;
+  margin: auto auto;
+  height: auto;
+  position: relative;
+  clear: both;
+  float: left;
+}
+
+.about_inner{
+  width:100%;
+  height: auto;
+  clear: both;
+  float: left;
+  display: flex;
+  align-items:center;
+}
+
+#servicio_inner{
+  align-items:inherit !important;
+}
+
+#izquierda{
+  width: 50%;
+  padding: 60px;
+}
+
+.about_izquierda img{
+  position: relative;
+  float: left;
+}
+
+
+.about_derecha{
+  width: 50%;
+  padding-left: 50px;
+}
+
+#titulo_about{
+  position: relative;
+  font-size: 2rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+}
+
+#titulo_about::before{
+  position: absolute;
+  content: " ";
+  width: 80px;
+  height: 5px;
+  background-color: #2d5fff;
+  left: 0px;
+  bottom: -5px;
+  z-index: 3;
+}
+
+.derecha_des{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  line-height: 22pt; 
+  color: #6F6F6F;
+  padding-right:80px ;
+}
+
+.derecha_titulo{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.derecha_des p{
+  margin-bottom: 20px;
+  font-size: .9rem;
+  letter-spacing: 1pt;
+}
+
+
+
+
+.image{
+  position: relative;
+  float: left;
+}
+
+.about .about_secun .container_about .about_inner .about_izquierda .image::before{
+  position: absolute;
+  content: " ";
+  top: 30px;
+  bottom: -30px;
+  left: 30px;
+  right: -30px;
+  background-color: #2d5fff;
+}
+
+.about_izquierda .imagen{
+  vertical-align:middle;
+  max-width: 100%;
+}
+
+#main_final{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://itemsstore.net/coddythemes/amos/premium/img/about/2.jpg");
+  z-index: 10;
+}
+
+.about .about_secun .container_about .about_inner .about_izquierda .imagen img{
+  position: relative;
+  vertical-align: middle;
+  max-width: 100%;
+  height: 80%;
+  width: 80%;
+  z-index: -1;
+}
+
+.derecha_cv{
+  width: 100%;
+  float: left;
+  margin-top: 5%;
+}
+
+.derecha_cv a{
+  text-decoration: none;
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Montserrat';
+  border: 2px solid #2d5fff;
+  padding: 12px 48px ;
+  background-color: #2d5fff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#final-img{
+  background-image: url("https://itemsstore.net/coddythemes/amos/premium/img/about/2.jpg")
+}
+
+
+
+
+
+
+
+
+
+#servicio{
+  background-color: #f9f9f9;
+}
+
+#service_izquierda{
+  padding: 50px 40px 40px 80px;
+}
+
+#service_izquierda{
+  width: 35%;
+}
+
+.derecha_service{
+  width: 65%;
+  padding-left: 50px;
+}
+
+.service_derecha_1{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.service_derecha_1 ul{
+  list-style-type: none;
+}
+
+.service_derecha_1 ul li{
+  float: left;
+  margin: 0 0 50px 0;
+  width: 50%;
+}
+
+.list_inner{
+  background-color: #fff;
+  box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+  padding: 50px 40px 60px 50px;
+  margin-right: 20px;
+}
+
+#servicio_derecha{
+  padding: 60px 20px 60px 40px !important;
+}
+
+#servicio_secun{
+  margin: 180px 0;
+}
+
+.title_service{
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.icon i{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #2d5fff;
+}
+
+.des_service{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  color: #6F6F6F;
+}
+
+
+
+.separador{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.separador_secundario{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  background-color: #2d5fff;
+  padding: 90px 0;
+  margin-bottom: 150px;
+}
+
+.inner_separador{
+ width: 100%;
+ height: auto;
+ clear: both;
+ float: left;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.separador_izquierda{
+  padding-left: 80px;
+}
+
+.separador_derecha{
+  padding-right: 80px;
+}
+
+.titulo_separador{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 550;
+  font-display: swap;
+  font-size: 30PX;
+  color: #FFF;
+}
+
+
+.des_separador{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  font-size: 16PX;
+  color: #CCCCCC;
+}
+
+.sep_de_titulo{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 550;
+  font-display: swap;
+  font-size: 30PX;
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+#servicio_inner2{
+  align-items:inherit !important;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#proyectos_porta{
+  background-color: #FFF;
+}
+
+
+
+
+
+.skill{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.skill_secundario{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  background-color: #f9f9f9;
+  padding: 143px 0 151px 0;
+}
+
+.skills_inner{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.skills_inner_progm{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.izquier_program{
+  width: 50%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.progre_inner {
+  margin: 30px 0 0 0;
+}
+
+.progre_inner span{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  font-size: 16PX;
+}
+
+
+.skill_secundario{
+  padding: 90px;
+}
+
+
+#servicio3{
+  background-color: #FFF;
+}
